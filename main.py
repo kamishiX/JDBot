@@ -20,7 +20,7 @@ from cogs import EXTENSIONS
 
 
 async def get_prefix(bot: JDBot, message: discord.Message):
-    extras = ["test*", "te*", "t*", "jdbot.", "jd.", "test.", "te."]
+    extras = ["test*", "te*", "t*", "jdbot.", "jd.", "test.", "te.", "j."]
 
     if message.guild:
         if message.guild.id in bot.prefix_cache:
